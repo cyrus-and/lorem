@@ -1,5 +1,10 @@
+#include <linux/module.h>
 #include <linux/miscdevice.h>
 #include <linux/fs.h>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Andrea Cardaci <cyrus.and@gmail.com>");
+MODULE_DESCRIPTION("Lorem ipsum generator");
 
 #define DEVICE_NAME "lorem"
 
